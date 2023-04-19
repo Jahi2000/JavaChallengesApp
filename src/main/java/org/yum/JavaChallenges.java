@@ -1,6 +1,7 @@
 package org.yum;
 
 import java.util.Scanner;
+import javax.swing.*;
 
 public class JavaChallenges {
     public static void main(String[] args) {
@@ -19,7 +20,6 @@ public class JavaChallenges {
 
        // String greeting = challenges.greeting("Max",20);
 
-
-        System.out.println(challenges.subtractTwoNumbers());
+      System.out.println(challenges.length());
     }
 }
