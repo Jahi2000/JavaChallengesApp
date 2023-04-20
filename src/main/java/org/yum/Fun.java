@@ -32,7 +32,22 @@ public class Fun {
             System.out.print("Error Occurred ");
         }
 */
-        throwing(10,0);
+    /*   if(2 > 1){
+           throw new ArrayStoreException("Invalid");
+       }
+       else{
+           System.out.println("Hey");
+       }
+*/
+       try{
+           int [] hey = {1,2};
+           int num = hey[4];
+       }
+       catch(ArrayIndexOutOfBoundsException t){
+           System.out.println("Hey" + t);
+       }
+
+       // throwing(10,0);
     }
 
 

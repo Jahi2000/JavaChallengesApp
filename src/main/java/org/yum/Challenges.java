@@ -103,7 +103,26 @@ public class Challenges {
         return "The length of the word is " + word1.length();
     }
 
+    public void toten(){
+        for(int i = 10; i >= 1; i--){
+            System.out.println(i);
+        }
+    }
 
+    public void tohun(){
+        for(int i = 1; i <= 100; i+=2){
+            System.out.println(i);
+        }
+    }
+
+    public void toE(){
+        for(int i = 0; i <= 50; i+=2){
+            /*if(i % 2 == 0) {
+                System.out.println(i);
+           }*/
+            System.out.println(i);
+        }
+    }
     }
 
 

@@ -20,6 +20,7 @@ public class JavaChallenges {
 
        // String greeting = challenges.greeting("Max",20);
 
-      System.out.println(challenges.length());
+     // System.out.println(challenges.length());
+        challenges.toE();
     }
 }
